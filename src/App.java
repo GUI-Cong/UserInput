@@ -10,13 +10,14 @@ public class App {
         int number2 = num.nextInt();
         int sum = number1 + number2;
         
-        if(sum > 10){
-            System.out.println("The value is greater than 10. It is " + sum + ".");
-        }
-        else{
-            System.out.println("The sum is " + sum);
-        }
+        System.out.println("Would you like to calculate the sum or the subtraction. Please type plus or minus.");
+        String calculation = num.next();
 
-
+        if(calculation.equals("plus")){
+            System.out.println("The result is " + sum  + ".");
+        }
+        else if(calculation.equals("minus")){
+            System.out.println("The result is "+ (number1 - number2));
+        }
     }
 }
