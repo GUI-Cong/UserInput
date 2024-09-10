@@ -17,7 +17,7 @@ public class App {
             System.out.println("The result is " + sum  + ".");
         }
         else if(calculation.equals("minus")){
-            System.out.println("The result is "+ (number1 - number2));
+            System.out.println("The result is "+ (number1 - number2) + ".");
         }
     }
 }
