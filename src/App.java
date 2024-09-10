@@ -10,11 +10,8 @@ public class App {
         int number2 = num.nextInt();
         int sum = number1 + number2;
         
-        if(sum > 10){
-            System.out.println("The value is greater than 10. It is " + sum);
-        }
-        else{
-            System.out.println("The sum is " + sum);
-        }
+        System.out.println("The sum is " + sum);
+
+
     }
 }
